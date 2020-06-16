@@ -18,7 +18,7 @@ lightning.style.setProperty("background-image", myLight);
 
 
 function makeMe() {
-var audio = new Audio('https://fi67.github.io/monster_finish/thunder.mp3');
+ myAudio.play();
 
     randomNumber = Math.floor(Math.random()*10);
     console.log(randomNumber);
@@ -59,5 +59,5 @@ var audio = new Audio('https://fi67.github.io/monster_finish/thunder.mp3');
     mouth.style.setProperty("animation", "none");
     mouth.offsetHeight;
     mouth.style.setProperty("animation", null);
-    audio.play();
+   
 }
