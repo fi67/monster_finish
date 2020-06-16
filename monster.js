@@ -18,7 +18,8 @@ lightning.style.setProperty("background-image", myLight);
 
 
 function makeMe() {
-myAudio.src = "thuunder.mp3";
+var audio = new Audio('thunder.mp3');
+audio.play();
     randomNumber = Math.floor(Math.random()*10);
     console.log(randomNumber);
     myDur = 0.5 * randomNumber;
