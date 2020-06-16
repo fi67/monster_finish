@@ -7,6 +7,7 @@ const head = document.getElementById('head');
 const eyes = document.getElementById('eyes');
 const nose = document.getElementById('nose');
 const mouth = document.getElementById('mouth');
+const myAudio = document.getElementById('thunder');
 const monsterButton = document.getElementById('monsterButton');
 monsterButton.addEventListener("click",makeMe);
 
@@ -17,7 +18,7 @@ lightning.style.setProperty("background-image", myLight);
 
 
 function makeMe() {
-
+myAudio.src = "thuunder.mp3";
     randomNumber = Math.floor(Math.random()*10);
     console.log(randomNumber);
     myDur = 0.5 * randomNumber;
